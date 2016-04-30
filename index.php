@@ -6,6 +6,7 @@
     </head>
     <body>
         <?php
+        echo "<h1>.........................</h1>";
         $var1 = 25 + 30;
         echo "<h1>Heading =  $var1</h1>";
         $x = 5;
@@ -17,29 +18,30 @@
         myTest();
         echo $y; // outputs 15
         var_dump($y);
-        echo strrev("hello world")."</br>";
-        echo strlen("hello world")."</br>";
-        echo str_word_count("hello worl")."</br>";
-        echo strpos("hello world", "world")."</br>";
-        function _switch($_param){
-            switch ($_param){
+        echo strrev("hello world") . "</br>";
+        echo strlen("hello world") . "</br>";
+        echo str_word_count("hello worl") . "</br>";
+        echo strpos("hello world", "world") . "</br>";
+
+        function _switch($_param) {
+            switch ($_param) {
                 case 1:
-                    echo "Case ".$_param;
+                    echo "Case " . $_param;
                     break;
                 case 2:
-                    echo "Case ".$_param;
+                    echo "Case " . $_param;
                     break;
                 case 3:
-                    echo "Case ".$_param;
+                    echo "Case " . $_param;
                     break;
                 case 4:
-                    echo "Case ".$_param;
+                    echo "Case " . $_param;
                     break;
                 case 5:
-                    echo "Case ".$_param;
+                    echo "Case " . $_param;
                     break;
                 default :
-                    echo "Default ".$_param;                
+                    echo "Default " . $_param;
             }
         }
         _switch(2);
